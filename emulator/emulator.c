@@ -200,8 +200,8 @@ int execute_one(CPU *cpu, const Program *prog, int debug) {
 int run_program(CPU *cpu, const Program *prog, int max_steps, int debug) {
     int steps = 0;
     while (steps < max_steps) {
-        if (!execute_one(cpu, prog, debug)) break;
         steps++;
+        if (!execute_one(cpu, prog, debug)) break;
     }
     return steps;
 }
