@@ -75,3 +75,7 @@ test_codegen        74 tests   PASS
 ```
 
 Compiler tests verified at 100% line and branch coverage via `gcov -b`.
+
+## Article
+
+[`article.pdf`](article.pdf) is a full walkthrough of the project — from silicon and transistors, through logic gates, arithmetic, memory, and a complete CPU, up to the assembler, emulator, and compiler. Written as an accessible read, not a formal paper.
