@@ -1,4 +1,4 @@
-# vcpu
+# vCPU
 
 A virtual CPU toolchain written in C99 — built as a bachelor's thesis at Yerevan State University.
 
